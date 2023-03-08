@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    justify-content: center;
+}
+
+.logoCall{
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.footerCenter{
+    background-color: rgba(56, 56, 56, 1);
+    justify-content: center;
+    text-align: center;
+}
+.footerCenter p{
+    color:rgba(169, 113, 64, 1);
+}
+.noteWhy{
+    background-color: black;
+    color: rgba(240, 255, 255, 0.615);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
