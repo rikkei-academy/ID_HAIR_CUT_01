@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.comboSales{
+    display: flex;
+    gap: 30px;
+}
+.optionsSales{
+    background-color: white;
+    padding: 50px 200px 50px 210px;
+    
+}

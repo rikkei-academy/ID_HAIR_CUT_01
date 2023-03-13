@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.OurGallery{
+    font-family: Bree Serif;
+}
+
+
+  .OurGalleryModalHair{
+    background-color: white;
+    padding: 50px ;
+
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: calc(20% - (70px * 1/2)) calc(20% - (70px * 1/2)) calc(20% - (70px * 1/2)) calc(20% - (70px * 1/2) );
+    grid-column-gap: 20px;
+justify-content: center;
+  }
+  .grid-item {
+background-color: black;
+width: 250px;
+height: 311px;
+margin-top: 20px;
+  }
+  .divMenuHair{
+    display: flex;
+justify-content: center;
+gap: 20px;
+}
+  .buttonOptions{
+    background-color: rgba(169, 113, 64, 1);
+    color: #fff;
+    max-width: max-content;
+    padding: 10px 20px 10px 20px;
+}

@@ -124,32 +124,12 @@
     height: 40px;
     line-height: 40px;
     position: absolute;
-    left: 380px;
-    top: 1760px;
-}
-
-.moneyHairModel2 {
-    color: #fff;
-    background-color: rgb(206, 159, 50);
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    left: 750px;
-    top: 1760px;
-    position: absolute;
-}
-
-.moneyHairModel3 {
-    color: #fff;
-    background-color: rgb(206, 159, 50);
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    left: 1120px;
-    position: absolute;
-    top: 1760px;
+    top: -30px;
+    left: 150px;
 
 }
+
+
 
 .hairModel div {
     margin-top: 10px;
@@ -159,7 +139,7 @@
     background-color: black;
     width: 340px;
     height: 270px;
-
+margin-bottom:10px ;
 }
 
 .detailHair {
@@ -170,12 +150,13 @@
     padding-top: 50px;
     text-align: center;
     padding: 20px 15px 0px 15px;
+    position:relative ;
 }
 
 .flexday {
     display: flex;
     gap: 30px;
-    padding: 0px 30px 20px 190px;
+    padding: 0px 30px 20px 150px;
 }
 
 .topHairStyle {
@@ -183,6 +164,7 @@
     text-align: center;
     padding-top: 40px;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .hairHotImg {
@@ -200,24 +182,30 @@
 
 .personHair {
     background-color: #fff;
+    padding: 50px 290px 50px 290px;
     display: flex;
     gap: 30px;
-    padding: 50px 290px 50px 290px;
 }
 
 .personHairHot {
     background-color: black;
     width: 400px;
     height: 500px;
+    position: relative;
 
+}
+
+.priviewperson {
+    max-width: 470px;
 }
 
 .leftAndRight2 {
     display: flex;
     gap: 20px;
     position: absolute;
-    top: 3100px;
-    left: 450px;
+    top: 410px;
+    left: 150px;
+
 }
 
 .leftAndRight2 p {
@@ -225,7 +213,6 @@
     border: 1px solid rgb(255, 255, 255);
     color: black;
     background-color: #fff;
-
 
 }
 
@@ -237,11 +224,6 @@
     padding-top: 110px;
 }
 
-.priviewperson {
-    position: absolute;
-    left: 720px;
-    top: 2650px;
-}
 
 .telephoneMe {
     color: rgba(169, 113, 64, 1);
@@ -280,7 +262,7 @@
     padding: 50px;
 }
 
-.shareSkill p {}
+
 
 .shareSkill div {
     padding-top: 30px;
@@ -293,69 +275,82 @@
 }
 
 .profileShareSkin img {
-border-radius: 50%;
+    border-radius: 50%;
 }
-.statusShare{
+
+.statusShare {
     max-width: 600px;
     margin-left: 380px;
 }
-.eventSales{
+
+.eventSales {
     background-color: #fff;
     justify-content: center;
-    text-align: center  ;
+    text-align: center;
     padding: 30px;
 }
-.cardSales{
+
+.cardSales {
     display: flex;
     gap: 30px;
     justify-content: center;
-    
+
 }
-.howtoSales{
+
+.howtoSales {
     display: flex;
 }
-.sale2{
+
+.sale2 {
     background-color: rgba(34, 34, 34, 1);
     color: #fff;
     padding: 10px 10px 10px 10px;
     width: 340px;
     height: 268px;
 }
-.sale1{
+
+.sale1 {
     background-color: rgba(56, 56, 56, 1);
     width: 340px;
     height: 268px;
 
 }
-.miniSale2{
+
+.miniSale2 {
     border: 1px solid rgb(255, 255, 255);
     padding: 20px 0px 30px 0px;
     width: 320px;
     height: 250px;
 }
-.miniSale2 p{
+
+.miniSale2 p {
     padding: 10px;
-text-align: left;
+    text-align: left;
 }
-.sale3{
-    background-color:  rgba(56, 56, 56, 1);
+
+.sale3 {
+    background-color: rgba(56, 56, 56, 1);
     width: 340px;
     height: 268px;
-color: #fff;
-padding: 20px 20px 30px 20px;
+    color: #fff;
+    padding: 20px 20px 30px 20px;
 }
-.sale3 p{
-    width:300px ;
-padding: 30px;
+
+.sale3 p {
+    width: 300px;
+    padding: 30px;
 }
-.logoBrand{
+
+.logoBrand {
     display: flex;
     justify-content: center;
     gap: 25px;
 }
-.logoBrand img{
-  width: 200px;
+
+.logoBrand img {
+    width: 200px;
 }
-.brandRight{
-   text-align: center;
+
+.brandRight {
+    text-align: center;
 }

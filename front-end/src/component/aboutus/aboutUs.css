@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.AboutUs{
+    width: 100%;
+    font-family: Montserrat;
+}
+.imgAboutUs{
+    background-color: rgba(56, 56, 56, 1);
+    padding: 30px 50px 30px 50px ;
+}
+.imgAboutUsMain{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    width: 230px;
+    height: 120px;
+justify-content: center;
+margin-left: 550px;
+
+
+}
+.imgAboutUsMini{
+    border: 1px solid white;
+    text-align: center;
+    color: #fff;
+    padding: 20px 30px;
+    row-gap: 20px;
+
+}
+.hotAbout{
+    background-color: #fff;
+    padding: 100px 100px 50px 200px;
+
+}
+.priviewHotBarberAbout{
+    display: flex;
+    gap: 30px;
+
+
+}
+.promiseBarber{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Bree Serif;
+    color: rgba(0, 0, 0, 1);
+}
+.detailBarberAbout{
+    width: 530px;
+}
+.detailBarberAbout p{
+    padding-bottom: 20px;
+}
+.imgBarberAbout{
+    background-color: black;
+    width: 520px;
+    height: 300px;
+}
+.contentMo{
+    color: rgba(153, 153, 153, 1);
+}
