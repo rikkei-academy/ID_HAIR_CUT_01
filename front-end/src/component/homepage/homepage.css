@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage {
+    font-family: Bebas Neue;
+
+}
+
+.sliderShop {
+    background-color: rgba(56, 56, 56, 1);
+    padding: 200px 100px 100px 330px;
+
+}
+
+.leftAndRight1 {
+    display: flex;
+    gap: 20px;
+}
+
+.leftAndRight1 p {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
+}
+
+.welcometo {
+    font-size: 15px;
+    color: #fff;
+}
+
+.hieubarber {
+    font-size: 35px;
+    color: rgba(169, 113, 64, 1);
+
+}
+
+.forreal {
+    font-size: 30px;
+    color: rgba(169, 113, 64, 1);
+}
+
+.lorem {
+    font-size: 15px;
+    width: 330px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.containerNews {
+    background-color: #fff;
+    display: flex;
+    padding: 50px 200px 50px 200px;
+    gap: 20px;
+}
+
+.imgNews {
+    background-color: black;
+    width: 340px;
+    height: 450px;
+}
+
+.lorem1Taitle {
+    width: 700px;
+    padding-bottom: 50px;
+}
+
+.lorem2Taitle {
+    width: 700px;
+}
+
+.containerCalendar {
+    background-color: rgba(56, 56, 56, 1);
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.open {
+    color: #fff;
+}
+
+.divCalendar {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.divCalendar div {
+    border: 0.1px solid rgba(255, 255, 255, 0.515);
+    text-align: center;
+    padding: 10px 18px 10px 18px;
+    color: #fff;
+    background-color: black;
+}
+
+.divCalendar div p {
+    padding-top: 5px;
+}
+
+.smallTime {
+    font-size: 12px;
+}
+
+.loremCalendar {
+    color: #fff;
+    width: 550px;
+    margin-left: 480px;
+}
+
+.hairModel {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.moneyHairModel1 {
+    color: #fff;
+    background-color: rgb(206, 159, 50);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 380px;
+    top: 1760px;
+}
+
+.moneyHairModel2 {
+    color: #fff;
+    background-color: rgb(206, 159, 50);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    left: 750px;
+    top: 1760px;
+    position: absolute;
+}
+
+.moneyHairModel3 {
+    color: #fff;
+    background-color: rgb(206, 159, 50);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    left: 1120px;
+    position: absolute;
+    top: 1760px;
+
+}
+
+.hairModel div {
+    margin-top: 10px;
+}
+
+.imgModel {
+    background-color: black;
+    width: 340px;
+    height: 270px;
+
+}
+
+.detailHair {
+    color: #fff;
+    width: 340px;
+    height: 170px;
+    background-color: black;
+    padding-top: 50px;
+    text-align: center;
+    padding: 20px 15px 0px 15px;
+}
+
+.flexday {
+    display: flex;
+    gap: 30px;
+    padding: 0px 30px 20px 190px;
+}
+
+.topHairStyle {
+    background-color: rgba(56, 56, 56, 1);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.hairHotImg {
+    display: flex;
+    gap: 30px;
+    padding: 30px 200px 30px 300px;
+}
+
+.div1HairHotImg, .div2HairHotImg, .div3HairHotImg {
+    background-color: rgba(34, 34, 34, 1);
+    width: 300px;
+    height: 370px;
+
+}
+
+.personHair {
+    background-color: #fff;
+    display: flex;
+    gap: 30px;
+    padding: 50px 290px 50px 290px;
+}
+
+.personHairHot {
+    background-color: black;
+    width: 400px;
+    height: 500px;
+
+}
+
+.leftAndRight2 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 3100px;
+    left: 450px;
+}
+
+.leftAndRight2 p {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+    background-color: #fff;
+
+
+}
+
+.contentPriview {
+    width: 470px;
+}
+
+.personHair {
+    padding-top: 110px;
+}
+
+.priviewperson {
+    position: absolute;
+    left: 720px;
+    top: 2650px;
+}
+
+.telephoneMe {
+    color: rgba(169, 113, 64, 1);
+    font-family: Montserrat;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.onJob {
+    color: rgba(169, 113, 64, 1);
+    padding: 10px 0px 10px 0px;
+}
+
+.skin {
+    font-family: Bree Serif;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.getgo {
+    font-family: Bree Serif;
+    padding: 0px 0px 10px 0px;
+
+
+}
+
+.namePerson {
+    font-family: Bree Serif;
+    font-size: 24px;
+}
+
+.shareSkill {
+    background-color: rgba(56, 56, 56, 1);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.shareSkill p {}
+
+.shareSkill div {
+    padding-top: 30px;
+
+}
+
+.namePro {
+    color: rgba(169, 113, 64, 1);
+    padding-bottom: 10px;
+}
+
+.profileShareSkin img {
+border-radius: 50%;
+}
+.statusShare{
+    max-width: 600px;
+    margin-left: 380px;
+}
+.eventSales{
+    background-color: #fff;
+    justify-content: center;
+    text-align: center  ;
+    padding: 30px;
+}
+.cardSales{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.howtoSales{
+    display: flex;
+}
+.sale2{
+    background-color: rgba(34, 34, 34, 1);
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    width: 340px;
+    height: 268px;
+}
+.sale1{
+    background-color: rgba(56, 56, 56, 1);
+    width: 340px;
+    height: 268px;
+
+}
+.miniSale2{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px 0px 30px 0px;
+    width: 320px;
+    height: 250px;
+}
+.miniSale2 p{
+    padding: 10px;
+text-align: left;
+}
+.sale3{
+    background-color:  rgba(56, 56, 56, 1);
+    width: 340px;
+    height: 268px;
+color: #fff;
+padding: 20px 20px 30px 20px;
+}
+.sale3 p{
+    width:300px ;
+padding: 30px;
+}
+.logoBrand{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.logoBrand img{
+  width: 200px;
+}
+.brandRight{
+   text-align: center;
+}
