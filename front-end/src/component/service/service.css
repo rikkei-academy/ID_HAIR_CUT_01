@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.service{
+    font-family: Bebas Neue;
+}
+.hairHotPrice{
+    background-color: #fff;
+    padding: 70px;
+}

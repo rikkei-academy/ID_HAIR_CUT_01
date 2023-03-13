@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sigleBlog{
+    font-family: Bree Serif;
+
+    width: 100%;
+}
+
+.sigleBlogContainer{
+    border: 1px solid black;
+padding: 50px 350px 50px 320px;
+}
+.sigleBlogContainer p{
+margin-top: 15px;
+}
+.sigleBlogContainer div {
+  margin-top: 15px;   
+}
+.imgSigleBlog{
+    background-color: black;
+    height: 500px;
+
+}
+.divTalkTop{
+    padding: 0px 20px 10px 20px;
+}
+.divHopTheTalkTop{
+    display: flex;
+    
+}
+.divYellow{
+    width: 1.5%;
+    background-color: rgba(169, 113, 64, 1);
+}
+.divTalkContent{
+    padding: 5px 20px 5px 20px;
+    background-color: rgba(229, 229, 229, 1);
+}
+.input4 input{
+    width: 100%;
+    height: 60px;
+    
+}
+.howtoCutWeek{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.newTimeUpdate{
+    color: rgba(169, 113, 64, 1);
+}
+.ohyeah{
+font-size: 20px;
+font-weight: 550;
+}
+.buttonSendd{
+    width: 160px;
+    height: 40px;
+   background-color:rgba(169, 113, 64, 1) ; 
+   color: #fff;
+   position: absolute;
+}
+.imgAvatarComment{
+    background-color: black;
+    width: 100px;
+height: 100px;
+}
+.thisCommentDiv{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.ruissia{
+    width: 600px;
+}

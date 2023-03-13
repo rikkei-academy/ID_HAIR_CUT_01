@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact{
+    font-family: Bebas Neue;
+    /* justify-items: center; */
+
+
+}
+.contacForm{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+
+}
+.imgMaps{
+    background-color:rgba(34, 34, 34, 1);
+    position: relative;
+    height: 480px;
+}
+.buttonToNho{
+    position: absolute;
+    top: 20px;
+}
+.formInput{
+    width: 700px;
+    height: 560px;
+    justify-content: center;
+    padding-top: 20px;
+    }
+.input2, .input1{
+   display: flex;
+   gap: 20px;
+}
+.input1 input,.input2 input{
+    width:340px ;
+    height: 60px;
+}
+   
+.input3{
+    width: 700px;
+    height: 150px;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.buttonSend{
+    
+    width: 160px;
+    height: 40px;
+   background-color:rgba(169, 113, 64, 1) ; 
+   color: #fff;
+
+}

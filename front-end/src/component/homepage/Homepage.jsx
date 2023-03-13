@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import "./homepage.css";
 import Header from "../task/Header";
 import Footer from "../task/Footer";
+import TimeOnJob from "../task/TimeOnJob";
+import OurBarber from "../task/OurBarber";
+import OurTopBrand from "../task/OurTopBrand";
+import BestSaleHair from "../task/BestSaleHair";
+import HowtoSales from "../task/HowtoSale";
+import DetailsSale from "../task/DetailsSale";
 export default function Homepage() {
   return (
     <>
@@ -57,88 +63,14 @@ export default function Homepage() {
               <img src="images/imgHomepage/Btn.png " alt="" />
             </div>
           </div>
-          <div className="containerCalendar">
-            <p className="open"> OPENING HOURS</p>
-            <img src="images/imgHomepage/decor 1.png" alt="" />
-            <div className="divCalendar">
-              <div>
-                {" "}
-                <p>MON </p> <p className="smallTime">10:00-17:00</p>{" "}
-              </div>
-              <div>
-                {" "}
-                <p>TUE </p> <p className="smallTime">09:00-15:00</p>{" "}
-              </div>
-              <div>
-                {" "}
-                <p>WED </p> <p className="smallTime">10:00-20:00</p>{" "}
-              </div>
-              <div>
-                {" "}
-                <p>THU </p> <p className="smallTime">10:00-17:00</p>{" "}
-              </div>
-              <div>
-                {" "}
-                <p>SAT </p> <p className="smallTime">10:00-17:00</p>{" "}
-              </div>
-              <div>
-                {" "}
-                <p>FRI+SUN </p> <p className="smallTime">Closed</p>{" "}
-              </div>
-            </div>
-            <p className="loremCalendar">
-              {" "}
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Curabitur pellentesque neque eget diam.
-            </p>
-          </div>
+
+          <TimeOnJob />
+
           <div className="hairModel">
             <p> WHAT WE DO</p>
             <img src="images/imgHomepage/decor 1.png" alt="" />
 
-            <div className="flexday">
-              <div className="divHair">
-                <div className="imgModel"> </div>
-                <div className="detailHair">
-                  <p> Trimming Bread</p>
-                  <p> ━━━━━━━━━━━━━━━━━</p>
-                  <p>
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Curabitur pellentesque neque eget diam.
-                  </p>
-                  <div className="moneyHairModel1"> $123 </div>
-                </div>
-              </div>
-
-              <div className="divHair">
-                <div className="imgModel"> </div>
-                <div className="detailHair">
-                  <p> Trimming Bread</p>
-                  <p> ━━━━━━━━━━━━━━━━━</p>
-                  <p>
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Curabitur pellentesque neque eget diam.
-                  </p>
-                  <div className="moneyHairModel2"> $123 </div>
-                </div>
-              </div>
-
-              <div className="divHair">
-                <div className="imgModel"> </div>
-                <div className="detailHair">
-                  <p> Trimming Bread</p>
-                  <p> ━━━━━━━━━━━━━━━━━</p>
-                  <p>
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Curabitur pellentesque neque eget diam.
-                  </p>
-                  <div className="moneyHairModel3"> $123 </div>
-                </div>
-              </div>
-            </div>
+          <BestSaleHair/>
           </div>
           <div className="topHairStyle">
             <p style={{ color: "#fff" }}> TOP POPULAR STYLE</p>
@@ -154,47 +86,9 @@ export default function Homepage() {
               Curabitur pellentesque neque eget diam.
             </p>
           </div>
-          <div className="personHair">
-            <div className="personHairHot">
-              <div className="leftAndRight2">
-                <p>
-                  <i className="fa-solid fa-angle-left"></i>{" "}
-                </p>
-                <p>
-                  {" "}
-                  <i class="fa-solid fa-chevron-right"></i>{" "}
-                </p>
-              </div>
-            </div>
-            <div className="priviewperson">
-              <p> OUR BABRER</p>
-              <img src="images/imgHomepage/decor 1.png" alt="" />
-              <div className="detailPerson">
-                <p className="namePerson"> Dao Hieu</p>
-                <p className="onJob"> Owner & Babber</p>
-                <div className="contentPriview">
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Curabitur pellentesque neque eget diam posuere porta. Quisque
-                  ut nulla at nunc lacinia. Proin adipiscing porta tellus, ut
-                  feugiat nibh adipiscing sit amet. In eu justo a felis faucibus
-                  ornare vel id metus. Vestibulum ante ipsum primis in faucibus
-                  orci luctus et ultrices. Proin adipiscing porta tellus, ut
-                  feugiat nibh adipiscing sit amet. In eu justo a felis faucibus
-                  ornare vel id metus.{" "}
-                </div>
-                <p className="skin"> Make an Appoinment </p>
-                <p className="telephoneMe">(123) 654-123 987</p>
-                <p className="getgo">Get in Touch</p>
-                <div>
-                  {" "}
-                  <img src="images/imgHomepage/Facebook.png" alt="" />{" "}
-                  <img src="images/imgHomepage/Twitter (2).png" alt="" />{" "}
-                  <img src="images/imgHomepage/Instagram (2).png" alt="" />{" "}
-                </div>
-              </div>
-            </div>
-          </div>
+      
+<OurBarber/>
+
           <div className="shareSkill">
             <p> HAPPY CUSTOMER</p>
             <img src="images/imgHomepage/decor 1.png" alt="" />
@@ -214,44 +108,12 @@ export default function Homepage() {
             <p> LATES NEW BLOG </p>
             <img src="images/imgHomepage/decor 1.png" alt="" />
             <div className="cardSales">
-              <div className="howtoSales">
-                <div className="sale1"> </div>
-                <div className="sale2">
-                  <div className="miniSale2">
-                    <p> HOW TO CARE YOUR BEARD IN A WEEK</p>
-                    <hr />
-                    <p> Posted Februari 10, 2016 </p>
-                    <p style={{ width: "330px" }}>
-                      {" "}
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Curabitur pellentesque neque eget diam.
-                    </p>
-                    <p> Read More </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="sale3">
-                <p> GET 20% CASHBACK FOR FIRST VISIT</p>
-                <p>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Curabitur pellentesque neque eget diam.{" "}
-                </p>
-              </div>
+              <HowtoSales/>
+              <DetailsSale/>
+             
             </div>
           </div>
-          <div className="brandRight">
-            <p> OUR TOP BRANDS</p>
-            <img src=" images/imgHomepage/decor 1.png" alt="" />
-            <div className="logoBrand">
-              {" "}
-              <img src="images/imgHomepage/Client Logo 1.png" alt="" />{" "}
-              <img src="images/imgHomepage/Client Logo 2.png" alt="" />{" "}
-              <img src="images/imgHomepage/Client Logo 3.png" alt="" />{" "}
-              <img src="images/imgHomepage/Client Logo 4.png" alt="" />{" "}
-            </div>
-          </div>
+        <OurTopBrand/>
         </div>
         <Footer />
       </div>
