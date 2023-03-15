@@ -29,7 +29,7 @@ export default function Register () {
                 </div> <br />
                 <input type="text" placeholder="Email Address"/>{" "}
                 <div className="divTaitleInput2" >
-                <i class="fa-solid fa-user"></i> 
+                <i className="fa-solid fa-user"></i> 
                 </div>
                 <br />
                 <input type="text" placeholder="Password"/>{" "}

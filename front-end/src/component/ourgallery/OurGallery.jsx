@@ -10,26 +10,25 @@ export default function OurGallery() {
     <>
       <div className="OurGallery">
         <Header />
-        <ImgAboutUs  />
+        <ImgAboutUs name="OUR GALLERY" />
         <div className="OurGalleryModalHair">
           <div className="divMenuHair">
-             <div className="buttonOptions"> Hair Styles </div>
-             <div className="buttonOptions">Beard Styles </div>
-             <div className="buttonOptions"> Colour Styles </div> 
-            
+            <div className="buttonOptions"> Hair Styles </div>
+            <div className="buttonOptions">Beard Styles </div>
+            <div className="buttonOptions"> Colour Styles </div>
           </div>
-          <div class="grid-container">
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
+          <div className="grid-container">
+            <div className="grid-item"></div>
+            <div className="grid-item"></div>
+            <div className="grid-item"></div>
+            <div className="grid-item"></div>
+            <div className="grid-item"></div>
+            <div className="grid-item"></div>
+            <div className="grid-item"></div>
+            <div className="grid-item"></div>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

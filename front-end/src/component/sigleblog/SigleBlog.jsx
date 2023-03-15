@@ -9,7 +9,7 @@ export default function () {
     <>
       <div className="sigleBlog">
         <Header />
-        <ImgAboutUs />
+        <ImgAboutUs name="SINGLE BLOG" />
         <div className="sigleBlogContainer">
           <p className="howtoCutWeek"> HOW TO CARE YOUR BEARD IN A WEEK </p>
           <hr />
@@ -48,7 +48,10 @@ export default function () {
               </div>
             </div>
           </div>
-          <p className="ohyeah"> Ultrices risus elit lectus nunc blandit quis</p>
+          <p className="ohyeah">
+            {" "}
+            Ultrices risus elit lectus nunc blandit quis
+          </p>
           <p>
             {" "}
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit esse
@@ -75,23 +78,27 @@ export default function () {
             <div className="thisCommentDiv">
               <div className="imgAvatarComment"> </div>
               <div className="contentComment">
-                <p  className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
-               <p className="ruissia">Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                consequatur? </p> 
+                <p className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
+                <p className="ruissia">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                  consequatur?{" "}
+                </p>
               </div>
             </div>
             <hr />
           </div>
           <div className="thisComment">
-            <p  className="newTimeUpdate">Comment </p> <hr />
+            <p className="newTimeUpdate">Comment </p> <hr />
             <div className="thisCommentDiv">
               <div className="imgAvatarComment"> </div>
               <div className="contentComment">
-                <p  className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
-                <p className="ruissia">Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                consequatur? </p> 
+                <p className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
+                <p className="ruissia">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                  consequatur?{" "}
+                </p>
               </div>
             </div>
             <hr />
@@ -99,35 +106,44 @@ export default function () {
           <div className="thisCommentDiv">
             <div className="imgAvatarComment"> </div>
             <div className="contentComment">
-              <p  className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
-              <p className="ruissia">Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              <p className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
+              <p className="ruissia">
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam
                 corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                consequatur? </p> 
+                consequatur?{" "}
+              </p>
             </div>
           </div>{" "}
           <hr />{" "}
           <div className="thisCommentDiv">
             <div className="imgAvatarComment"> </div>
             <div className="contentComment">
-              <p  className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
-              <p className="ruissia">Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              <p className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
+              <p className="ruissia">
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam
                 corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                consequatur? </p> 
+                consequatur?{" "}
+              </p>
             </div>
           </div>
           <hr />
           <div className="thisCommentDiv">
             <div className="imgAvatarComment"> </div>
             <div className="contentComment">
-              <p  className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
-              <p className="ruissia">Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              <p className="newTimeUpdate"> Posted by Jonny Doel </p> <br />
+              <p className="ruissia">
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam
                 corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                consequatur? </p> 
+                consequatur?{" "}
+              </p>
             </div>
           </div>
           <hr />
           <div>
-            <p style={{paddingBottom:"20px"}}  className="newTimeUpdate"> Leave a comment</p>
+            <p style={{ paddingBottom: "20px" }} className="newTimeUpdate">
+              {" "}
+              Leave a comment
+            </p>
             <hr />
             <form className="formInput">
               <div className="input1">

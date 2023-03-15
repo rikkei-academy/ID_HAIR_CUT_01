@@ -8,31 +8,15 @@ import OurTopBrand from "../task/OurTopBrand";
 import BestSaleHair from "../task/BestSaleHair";
 import HowtoSales from "../task/HowtoSale";
 import DetailsSale from "../task/DetailsSale";
+import DetailHot from "../task/DetailHot";
+
 export default function Homepage() {
   return (
     <>
       <div className="homepage">
         <Header />
         <div className="containerHomepage">
-          <div className="sliderShop">
-            <p className="welcometo"> WELCOME TO</p>
-            <p className="hieubarber"> HIEU BABERSHOP </p>
-            <p className="forreal">FOR REAL MEN’S </p>
-            <p className="lorem">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod
-            </p>
-            <div className="leftAndRight1">
-              {" "}
-              <p>
-                {" "}
-                <i className="fa-solid fa-angle-left"></i>
-              </p>{" "}
-              <p>
-                <i class="fa-solid fa-chevron-right"></i>
-              </p>{" "}
-            </div>
-          </div>
+         <DetailHot/>
           <div className="containerNews">
             <div className="imgNews">
               <img src="" alt="" />
