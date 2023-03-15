@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 import DetailsSale from "../task/DetailsSale";
 import Footer from "../task/Footer";
 import Header from "../task/Header";
@@ -12,17 +13,19 @@ export default function Blog() {
     <>
       <div className="Blog">
         <Header />
-        <ImgAboutUs />
-        <div className="optionsSales">
+        <ImgAboutUs name="BLOG" />
+        <NavLink to="/signblog">
+          <div className="optionsSales">
             <div className="comboSales">
-                <HowtoSales/> 
-                <DetailsSale/>
-            </div><br />
-                 <HowtoSales/> <br />
-                 <HowtoSales/> 
-
-        </div>
-        <Footer/>
+              <HowtoSales />
+              <DetailsSale />
+            </div>
+            <br />
+            <HowtoSales /> <br />
+            <HowtoSales />
+          </div>
+        </NavLink>
+        <Footer />
       </div>
     </>
   );

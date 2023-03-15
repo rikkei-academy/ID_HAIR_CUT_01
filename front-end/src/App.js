@@ -8,18 +8,24 @@ import Contact from './component/contact/Contact';
 import Register from './component/user/Register';
 import Login from './component/user/Login';
 import SigleBlog from './component/sigleblog/SigleBlog';
+import {Routes, Route} from "react-router-dom" 
 function App() {
   return (
     <>
-      {/* <Homepage />  */}
-      {/* <AboutUs/> */}
-      {/* <Service/> */}
-      {/* <OurGallery  /> */}
-      {/* <Blog/> */}
-      {/* <Contact/> */}
-      {/* <Register/> */}
+    <Routes>
+      <Route path='/' element={<Homepage /> } /> 
+      <Route path='/aboutus' element={<AboutUs /> } /> 
+      <Route path='/service' element={<Service /> } /> 
+      <Route path='/ourgallery' element={<OurGallery /> } /> 
+      <Route path='/blog' element={<Blog /> } /> 
+      <Route path='/contactus' element={<Contact /> } /> 
+     <Route  path='/signblog' element={<SigleBlog/>}/>
+
+      
+    </Routes>
       {/* <Login/> */}
-      <SigleBlog/>
+
+      {/* <SigleBlog/> */}
       
 
     </>

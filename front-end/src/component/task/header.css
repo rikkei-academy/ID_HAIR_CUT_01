@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.header{
+.header {
     background-color: black;
     display: flex;
     color: #fff;
@@ -12,15 +12,28 @@
     max-width: 100%;
     height: 80px;
 }
-.imgHeader{
+
+.header a {
+    text-decoration: none;
+    color: #ffffffc2;
+    cursor: pointer;
+}
+
+.imgHeader {
     position: absolute;
     left: 330px;
 }
-.menuHeader{
+
+.menuHeader {
     display: flex;
-position: absolute;
-left: 600px;
-gap: 30px;
-line-height: 80px;
-font-family: Bebas Neue;
+    position: absolute;
+    left: 600px;
+    gap: 30px;
+    line-height: 80px;
+    font-family: Bebas Neue;
+}
+
+.active  {
+    color: #a97140  !important;
+    text-decoration: overline !important;
 }

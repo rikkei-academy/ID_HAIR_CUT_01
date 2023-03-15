@@ -11,7 +11,7 @@ export default function OurBarber()  {
                 </p>
                 <p>
                   {" "}
-                  <i class="fa-solid fa-chevron-right"></i>{" "}
+                  <i className="fa-solid fa-chevron-right"></i>{" "}
                 </p>
               </div>
             </div>
@@ -32,7 +32,7 @@ export default function OurBarber()  {
                   feugiat nibh adipiscing sit amet. In eu justo a felis faucibus
                   ornare vel id metus.{" "}
                 </div>
-                <p className="skin"> Make an Appoinment </p>
+                <p className="skin"> Make  wwwwwwwwwan Appoinment </p>
                 <p className="telephoneMe">(123) 654-123 987</p>
                 <p className="getgo">Get in Touch</p>
                 <div>

@@ -1,14 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.footer{
+
+.footer {
     justify-content: center;
 }
 
-.logoCall{
-    display:flex ;
+.logoCall {
+    display: flex;
     text-align: center;
     justify-content: center;
     gap: 20px;
@@ -16,18 +17,39 @@
     padding-bottom: 30px;
 
 }
-.footerCenter{
+
+.footerCenter {
     background-color: rgba(56, 56, 56, 1);
     justify-content: center;
     text-align: center;
 }
-.footerCenter p{
-    color:rgba(169, 113, 64, 1);
+
+.footerCenter p {
+    color: rgba(169, 113, 64, 1);
 }
-.noteWhy{
+
+.noteWhy {
     background-color: black;
     color: rgba(240, 255, 255, 0.615);
     text-align: center;
     height: 50px;
     line-height: 50px;
+}
+
+.image-footer {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.image-footer:hover {
+    opacity: 1;
+
+}
+
+.phone-footer {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
 }

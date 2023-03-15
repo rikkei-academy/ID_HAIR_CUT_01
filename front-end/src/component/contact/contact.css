@@ -1,61 +1,97 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.contact{
+
+.contact {
     font-family: Bebas Neue;
     /* justify-items: center; */
 
 
 }
-.contacForm{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top: 50px;
+
+.contacForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
 
 }
-.imgMaps{
-    background-color:rgba(34, 34, 34, 1);
+
+.imgMaps {
+    background-color: rgba(34, 34, 34, 1);
     position: relative;
     height: 480px;
 }
-.buttonToNho{
+
+.buttonToNho {
     position: absolute;
     top: 20px;
 }
-.formInput{
+
+.formInput {
     width: 700px;
     height: 560px;
     justify-content: center;
     padding-top: 20px;
-    }
-.input2, .input1{
-   display: flex;
-   gap: 20px;
+    position: relative;
 }
-.input1 input,.input2 input{
-    width:340px ;
+
+.input2, .input1 {
+    display: flex;
+    gap: 20px;
+}
+
+.input1 input, .input2 input {
+    width: 340px;
     height: 60px;
 }
-   
-.input3{
+
+.input3 {
     width: 700px;
     height: 150px;
 }
+
 button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 50px;
+    outline: none;
+    border: 1px solid transparent;
 }
-.buttonSend{
-    
+
+.buttonSend {
+
     width: 160px;
     height: 40px;
-   background-color:rgba(169, 113, 64, 1) ; 
-   color: #fff;
+    background-color: rgba(169, 113, 64, 1);
+    color: #fff;
+    position: absolute;
+    top: 300px;
 
+}
+
+.form-input {
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid #dadada;
+
+}
+
+.form-input:focus {
+    border: 1px solid #dad1d1;
+}
+
+.input3 {
+    padding: 0 16px;
+    position: absolute;
+}
+
+.input3::placeholder {
+    line-height: 50px;
+    position: absolute;
+    top: 10px;
 }
